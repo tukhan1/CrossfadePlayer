@@ -7,23 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771EBFEB281AA0DD0079DCCD /* jingle-bells-jazzy-style-christmas-swing-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 771EBFE5281AA0DC0079DCCD /* jingle-bells-jazzy-style-christmas-swing-music.mp3 */; };
+		771EBFEC281AA0DD0079DCCD /* jazzy-background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 771EBFE6281AA0DC0079DCCD /* jazzy-background-music.mp3 */; };
+		771EBFED281AA0DD0079DCCD /* jazz-for-dummies-big-band-guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 771EBFE7281AA0DC0079DCCD /* jazz-for-dummies-big-band-guitar.mp3 */; };
+		771EBFEE281AA0DD0079DCCD /* the-epic-trailer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 771EBFE8281AA0DD0079DCCD /* the-epic-trailer.mp3 */; };
+		771EBFEF281AA0DD0079DCCD /* lo-fi-beauty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 771EBFE9281AA0DD0079DCCD /* lo-fi-beauty.mp3 */; };
+		771EBFF0281AA0DD0079DCCD /* jazzy-abstract-beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 771EBFEA281AA0DD0079DCCD /* jazzy-abstract-beat.mp3 */; };
+		771EBFF2282E992B0079DCCD /* MiniPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771EBFF1282E992B0079DCCD /* MiniPlayerVC.swift */; };
+		771EBFF4282FB2EA0079DCCD /* CFPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771EBFF3282FB2EA0079DCCD /* CFPlayButton.swift */; };
+		771EBFF62833BE970079DCCD /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771EBFF52833BE970079DCCD /* Audio.swift */; };
 		77789EEA2815858800C369C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789EE92815858800C369C6 /* AppDelegate.swift */; };
 		77789EEC2815858800C369C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789EEB2815858800C369C6 /* SceneDelegate.swift */; };
-		77789EEE2815858800C369C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789EED2815858800C369C6 /* ViewController.swift */; };
-		77789EF12815858800C369C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77789EEF2815858800C369C6 /* Main.storyboard */; };
 		77789EF32815858900C369C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77789EF22815858900C369C6 /* Assets.xcassets */; };
 		77789EF62815858900C369C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77789EF42815858900C369C6 /* LaunchScreen.storyboard */; };
+		77789EFE281586B800C369C6 /* CrossfadeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789EFD281586B800C369C6 /* CrossfadeVC.swift */; };
+		77789F00281586C700C369C6 /* AudioListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789EFF281586C700C369C6 /* AudioListVC.swift */; };
+		77789F032815888D00C369C6 /* CFAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789F022815888D00C369C6 /* CFAudioPlayer.swift */; };
+		77789F05281588A800C369C6 /* CFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789F04281588A800C369C6 /* CFError.swift */; };
+		77789F08281588C100C369C6 /* CFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77789F07281588C100C369C6 /* CFButton.swift */; };
+		77AB7888281597230028516E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 77AB7887281597230028516E /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		771EBFE5281AA0DC0079DCCD /* jingle-bells-jazzy-style-christmas-swing-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jingle-bells-jazzy-style-christmas-swing-music.mp3"; sourceTree = "<group>"; };
+		771EBFE6281AA0DC0079DCCD /* jazzy-background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jazzy-background-music.mp3"; sourceTree = "<group>"; };
+		771EBFE7281AA0DC0079DCCD /* jazz-for-dummies-big-band-guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jazz-for-dummies-big-band-guitar.mp3"; sourceTree = "<group>"; };
+		771EBFE8281AA0DD0079DCCD /* the-epic-trailer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the-epic-trailer.mp3"; sourceTree = "<group>"; };
+		771EBFE9281AA0DD0079DCCD /* lo-fi-beauty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lo-fi-beauty.mp3"; sourceTree = "<group>"; };
+		771EBFEA281AA0DD0079DCCD /* jazzy-abstract-beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jazzy-abstract-beat.mp3"; sourceTree = "<group>"; };
+		771EBFF1282E992B0079DCCD /* MiniPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerVC.swift; sourceTree = "<group>"; };
+		771EBFF3282FB2EA0079DCCD /* CFPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFPlayButton.swift; sourceTree = "<group>"; };
+		771EBFF52833BE970079DCCD /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		77789EE62815858800C369C6 /* CrossfadePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossfadePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77789EE92815858800C369C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77789EEB2815858800C369C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77789EED2815858800C369C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77789EF02815858800C369C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77789EF22815858900C369C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77789EF52815858900C369C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77789EF72815858900C369C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77789EFD281586B800C369C6 /* CrossfadeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossfadeVC.swift; sourceTree = "<group>"; };
+		77789EFF281586C700C369C6 /* AudioListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListVC.swift; sourceTree = "<group>"; };
+		77789F022815888D00C369C6 /* CFAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAudioPlayer.swift; sourceTree = "<group>"; };
+		77789F04281588A800C369C6 /* CFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFError.swift; sourceTree = "<group>"; };
+		77789F07281588C100C369C6 /* CFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +56,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AB7888281597230028516E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771EBFF72833C06A0079DCCD /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				771EBFF52833BE970079DCCD /* Audio.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 		77789EDD2815858800C369C6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +90,67 @@
 		77789EE82815858800C369C6 /* CrossfadePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				77789EE92815858800C369C6 /* AppDelegate.swift */,
-				77789EEB2815858800C369C6 /* SceneDelegate.swift */,
-				77789EED2815858800C369C6 /* ViewController.swift */,
-				77789EEF2815858800C369C6 /* Main.storyboard */,
-				77789EF22815858900C369C6 /* Assets.xcassets */,
-				77789EF42815858900C369C6 /* LaunchScreen.storyboard */,
+				77AB7889281598970028516E /* Screens */,
+				77AB788C281598C10028516E /* Player */,
+				77AB788D281598CA0028516E /* CustomViews */,
+				77AB788F281599320028516E /* Audio */,
+				77AB788A281598A80028516E /* Others */,
 				77789EF72815858900C369C6 /* Info.plist */,
 			);
 			path = CrossfadePlayer;
+			sourceTree = "<group>";
+		};
+		77AB7889281598970028516E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				77789EFD281586B800C369C6 /* CrossfadeVC.swift */,
+				77789EFF281586C700C369C6 /* AudioListVC.swift */,
+				771EBFF1282E992B0079DCCD /* MiniPlayerVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		77AB788A281598A80028516E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				77789EE92815858800C369C6 /* AppDelegate.swift */,
+				77789EEB2815858800C369C6 /* SceneDelegate.swift */,
+				77789EF22815858900C369C6 /* Assets.xcassets */,
+				77789EF42815858900C369C6 /* LaunchScreen.storyboard */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		77AB788C281598C10028516E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				77789F022815888D00C369C6 /* CFAudioPlayer.swift */,
+				77789F04281588A800C369C6 /* CFError.swift */,
+				771EBFF72833C06A0079DCCD /* DTO */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		77AB788D281598CA0028516E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				77789F07281588C100C369C6 /* CFButton.swift */,
+				771EBFF3282FB2EA0079DCCD /* CFPlayButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		77AB788F281599320028516E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				771EBFE7281AA0DC0079DCCD /* jazz-for-dummies-big-band-guitar.mp3 */,
+				771EBFEA281AA0DD0079DCCD /* jazzy-abstract-beat.mp3 */,
+				771EBFE6281AA0DC0079DCCD /* jazzy-background-music.mp3 */,
+				771EBFE5281AA0DC0079DCCD /* jingle-bells-jazzy-style-christmas-swing-music.mp3 */,
+				771EBFE9281AA0DD0079DCCD /* lo-fi-beauty.mp3 */,
+				771EBFE8281AA0DD0079DCCD /* the-epic-trailer.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +169,9 @@
 			dependencies = (
 			);
 			name = CrossfadePlayer;
+			packageProductDependencies = (
+				77AB7887281597230028516E /* SnapKit */,
+			);
 			productName = CrossfadePlayer;
 			productReference = 77789EE62815858800C369C6 /* CrossfadePlayer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 77789EDD2815858800C369C6;
+			packageReferences = (
+				77AB7886281597230028516E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 77789EE72815858800C369C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771EBFEB281AA0DD0079DCCD /* jingle-bells-jazzy-style-christmas-swing-music.mp3 in Resources */,
 				77789EF62815858900C369C6 /* LaunchScreen.storyboard in Resources */,
+				771EBFEF281AA0DD0079DCCD /* lo-fi-beauty.mp3 in Resources */,
 				77789EF32815858900C369C6 /* Assets.xcassets in Resources */,
-				77789EF12815858800C369C6 /* Main.storyboard in Resources */,
+				771EBFEC281AA0DD0079DCCD /* jazzy-background-music.mp3 in Resources */,
+				771EBFEE281AA0DD0079DCCD /* the-epic-trailer.mp3 in Resources */,
+				771EBFED281AA0DD0079DCCD /* jazz-for-dummies-big-band-guitar.mp3 in Resources */,
+				771EBFF0281AA0DD0079DCCD /* jazzy-abstract-beat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +235,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77789EEE2815858800C369C6 /* ViewController.swift in Sources */,
+				771EBFF2282E992B0079DCCD /* MiniPlayerVC.swift in Sources */,
 				77789EEA2815858800C369C6 /* AppDelegate.swift in Sources */,
+				77789F032815888D00C369C6 /* CFAudioPlayer.swift in Sources */,
 				77789EEC2815858800C369C6 /* SceneDelegate.swift in Sources */,
+				771EBFF62833BE970079DCCD /* Audio.swift in Sources */,
+				771EBFF4282FB2EA0079DCCD /* CFPlayButton.swift in Sources */,
+				77789F00281586C700C369C6 /* AudioListVC.swift in Sources */,
+				77789F05281588A800C369C6 /* CFError.swift in Sources */,
+				77789F08281588C100C369C6 /* CFButton.swift in Sources */,
+				77789EFE281586B800C369C6 /* CrossfadeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77789EEF2815858800C369C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77789EF02815858800C369C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		77789EF42815858900C369C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +390,6 @@
 				INFOPLIST_FILE = CrossfadePlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +417,6 @@
 				INFOPLIST_FILE = CrossfadePlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +454,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77AB7886281597230028516E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77AB7887281597230028516E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77AB7886281597230028516E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 77789EDE2815858800C369C6 /* Project object */;
 }
